@@ -1,0 +1,124 @@
+% This file was created with JabRef 2.3.1.
+% Encoding: Cp1252
+
+@ARTICLE{Brooks2008,
+  author = {Brooks, R. and Ramanathan, P. and Sayeed, A},
+  title = {Distributed target classification and tracking in sensor networks},
+  journal = {Proceedings of the IEEE 91},
+  year = {2008},
+  volume = {1},
+  pages = {1163 - 1171},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@ARTICLE{ChongAugust2003,
+  author = {Chong, C. and Kumar, S.},
+  title = {Sensor networks: evolution, opportunities, and challenges},
+  journal = {Proceedings of the IEEE 91},
+  year = {August 2003},
+  volume = {6},
+  pages = {1247 - 1256},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@BOOK{Cover1991,
+  title = {Elements of Information Theory},
+  publisher = {Wiley, New York},
+  year = {1991},
+  author = {Cover, T. and Thomas, J.},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@BOOK{Csisz´ar1982,
+  title = {Information Theory: Coding Theorems for
+	
+	Discrete Memoryless Systems},
+  publisher = {Akad´emi Kiad´o, Budapest},
+  year = {1982},
+  author = {Csisz´ar, I., and K¨orner, J},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@ARTICLE{EstrinJanuary–March2002,
+  author = {Estrin, D. and Culler, D. and Pister, K. and Sukhatme, G.},
+  title = {Connecting the physical world with pervasive networks},
+  journal = {IEEE Pervasive Computing 1},
+  year = {January–March 2002},
+  volume = {1},
+  pages = {59 - 69},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@ARTICLE{GharaviJanuary2008,
+  author = {Gharavi, H},
+  title = {Multichannel mobile ad hoc links for multimedia communications},
+  journal = {Proceedings of the IEEE 96},
+  year = {January 2008},
+  volume = {1},
+  pages = {77 - 96},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@ARTICLE{Leonard2007,
+  author = {Leonard, N.E. and Paley, D.A. and Lekien, F. and Sepulchre, R. and
+	Fratantoni, D.M. and Davis, R.E.},
+  title = {Collective motion, sensor collective motion, sensor networks, and
+	ocean sampling},
+  journal = {Proceedings of the IEEE 95},
+  year = {2007},
+  volume = {1},
+  pages = {48 - 74},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@ARTICLE{OhJanuary2007,
+  author = {Oh, S. and Schenato, L. and Chen, P. and Sastry, S.},
+  title = {Tracking and coordination of multiple agents using sensor networks:
+	system design, algorithms and experiments},
+  journal = {Proceedings of the IEEE 95},
+  year = {January 2007},
+  volume = {1},
+  pages = {234 - 254},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@ARTICLE{RoyerApril1999,
+  author = {Royer, E., and Toh, C},
+  title = {A review of current routing protocols for ad hoc mobile wireless
+	networks},
+  journal = {IEEE Personal Communications 6},
+  year = {April 1999},
+  volume = {2},
+  pages = {46 - 55},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@ARTICLE{Shannon1948,
+  author = {Shannon, C},
+  title = {A mathematical theory of communication},
+  journal = {Bell System Technical
+	
+	Journal 27},
+  year = {1948},
+  volume = {379 - 423},
+  owner = {abhishek},
+  timestamp = {2011.05.26}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

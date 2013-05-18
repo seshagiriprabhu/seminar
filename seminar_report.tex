@@ -1,0 +1,139 @@
+%input macros (i.e. write your own macros file called MacroFile1.tex)
+%\include{Macros/MacroFile1}
+
+\documentclass[oneside,12pt]{Classes/CUEDthesisPSnPDF}
+\usepackage{epstopdf}
+
+%
+%    \pdfinfo { /Title  (MTech Dessertation)
+%               /Creator (TeX)
+%               /Producer (pdfTeX)
+%               /Author (AmritaWNA)
+%               /CreationDate (D:20110520)  %format D:YYYYMMDD
+%               /ModDate (D:20110520)
+%               /Subject (Writing a Dessertation in LaTeX)
+%               /Keywords (MTech, Thesis)}
+%    \pdfcatalog { /PageMode (/UseOutlines)
+%                  /OpenAction (fitbh)  }
+%               
+                  
+   % Change the Title as per your details
+		\title{Node Failures and its Impact on Data Aggregation Delay} 
+		\degree{MASTER of TECHNOLOGY \\[1ex]IN \\[1ex]WIRELESS NETWORKS AND APPLICATIONS}
+		
+		% The year and Month the degree will be officially conferred
+		\degreedate{April 2013}      
+		% Change the Author name to full name of the person submitting the report.                   
+		\author{Sreedevi A. G.}
+		% Change the Guide name to full name of the Guide.  
+		\guide{Dr. P Venkat Rangan}
+		% Change the register no.  
+		\regno{AM.EN.P2WNA10018}
+		% Change the Academic Year
+		\academicyear{2012-2013}
+	  \crest{\includegraphics[width=60mm]{UniEmblem.eps}}
+  	\collegeordept{AMRITA CENTER FOR WIRELESS NETWORKS AND APPLICATIONS}
+	  \university{AMRITA VISHWA VIDYAPEETHAM (AMRITA UNIVERSITY),\\[1ex] (Estd. U/S 3 of the UGC Act 1956) Amritapuri  Campus \\[1ex] Kollam -690525}
+  	\crestsmall{\includegraphics[width=30mm]{UniEmblem.eps}}
+% Packages that are used  
+\usepackage{subfig,enumerate,algorithm,algorithmic,fancyvrb,amsthm}
+\usepackage{multirow}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+{\normalsize {\bfseries{AMRITA CENTER FOR WIRELESS NETWORKS AND APPLICATIONS	\\[1ex]}}}
+{\normalsize {\bfseries{AMRITA VISHWA VIDYAPEETHAM (AMRITA UNIVERSITY),\\[1ex] (Estd. U/S 3 of the UGC Act 1956) Amritapuri  Campus \\[1ex] Kollam -690525\\[1ex]}}}
+	\includegraphics[width=30mm]{UniEmblem.eps}
+	\\[1ex]					
+				\rmfamily\bfseries\upshape\Large
+				BONAFIDE CERTIFICATE \\[2ex] % Insert your Project title here
+\end{center}
+		\vspace{1pt}	
+\rmfamily\mdseries\upshape\normalsize					
+%\begin{flushleft}
+This is to certify that the Seminar Report entitled \textbf{``Node Failures and its Impact on Data Aggregation Delay in Hierarchical WSNs''} submitted by \textbf{Ms. Sreedevi A. G.(AM.EN.P2WNA10018)}, in partial fulfillment of the degree of Master of Technology in Amrita Center for Wireless Networks and Applications, Amrita Vishwa Vidyapeetham (Amrita University), is a bonafide record of the work carried out by him/her  at Amrita School of Engineering, Amritapuri during Semester 2 of the academic year 2012-2013. 
+%\end{flushleft}
+			
+\vspace{45pt}
+\begin{flushleft}
+Coordinator\hspace{200pt} Head of the Department\\
+\vspace{3pt}
+Prof. K A Unnikrishna Menon\hspace{100pt} Dr. Maneesha V Ramesh\\
+\vspace{40pt}
+\end{flushleft}
+\begin{flushleft}
+\vspace{5pt}
+Place	:	Amritapuri \\
+Date	:	56 July, 2056
+\end{flushleft}
+
+
+\pagebreak
+
+\begin{center}
+   {\normalsize {\bfseries{AMRITA CENTER FOR WIRELESS NETWORKS AND APPLICATIONS	\\[1ex]}}}
+
+    {\normalsize {\bfseries{AMRITA VISHWA VIDYAPEETHAM (AMRITA UNIVERSITY),\\[1ex] (Estd. U/S 3 of the UGC Act 1956) Amritapuri  Campus \\[1ex] Kollam -690525\\[1ex]}}}
+    \includegraphics[width=30mm]{UniEmblem.eps}
+	\\[1ex]	
+    \rmfamily\bfseries\upshape\Large
+				DECLARATION \\[2ex]
+    %\includegraphics[width=30mm]{UniEmblem}
+    
+    \end{center}
+	\vspace{2pt}
+I, \textbf{Ms. Sreedevi A. G., Reg No:AM.EN.P2WNA10018}, hereby declare that this seminar entitled 
+\textbf{"Node Failures and its Impact on Data Aggregation Delay in Hierarchical WSNs"} is a record of the literature work done at Amrita Center for Wireless Networks and Applications, Amrita Vishwa Vidyapeetham (AMRITA UNIVERSITY), that this work has not formed the basis for any degree/diploma/associationship/fellowship or similar awards to any candidate in any university to the best of my knowledge.
+
+\vspace{60pt}
+\begin{flushleft}
+Place	:	Amritapuri% PRint the place and date
+\\[1ex]
+Date	:	67th July, 2096.
+\\[15ex]
+Signature of the Student 
+\end{flushleft}
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\frontmatter % book mode only
+\pagenumbering{roman}
+\include{Dedication/dedication}
+\include{Acknowledgement/acknowledgement}
+\include{Abstract/abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\listofalgorithms
+\printnomenclature  %% Print the nomenclature
+\addcontentsline{toc}{chapter}{Nomenclature}
+
+\mainmatter % book mode only
+\include{Introduction/introduction}
+\include{Chapter1/chapter1}
+\include{Chapter2/chapter2}
+\include{Chapter3/chapter3}
+\include{Chapter4/chapter4}
+\include{Conclusions/conclusions}
+\include{Chapter5/chapter5}
+
+
+\backmatter % book mode only
+\appendix
+\include{Appendix1/appendix1}
+%\include{Appendix2/appendix2}
+\bibliographystyle{IEEEtran}
+%\bibliographystyle{Classes/CUEDbiblio}
+%\bibliographystyle{Classes/ieeetr}
+%\bibliographystyle{Classes/jmb} % bibliography style
+\renewcommand{\bibname}{References}% changes default name Bibliography to References 
+
+\bibliography{References/references} % References file
+
+\end{document}
