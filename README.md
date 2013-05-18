@@ -7,7 +7,7 @@ master's degree case study.
 Pre-requisite (for GNU/Linux)
 ----------------------------
 * Texlive-full package	
-    + `$ sudo apt-get install **texlive-full**`
+    + `$ sudo apt-get install texlive-full`
 
 * LaTeX editor tool like kile or texmaker 
-    + `$ sudo apt-get install **kile**/**texmaker**`
+    + `$ sudo apt-get install kile/texmaker`
